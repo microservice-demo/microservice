@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: profile-service
+  data:
+    rest:
+      base-path: /profile-service
+    mongodb:
+      host: localhost
+      port: 27017
+      database: profile
+      repositories:
+        enabled: true
+
+management:
+  security:
+    enabled: false
